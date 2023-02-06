@@ -1,9 +1,9 @@
 export const environment = {
   production:false
 };
-export const SpotfyConfiguration = {
+export const SpotifyConfiguration = {
   clientId:'be9c6262829648aa9b4dc002011a9e25',
-  authEndpoint:'https://accounts.spotfy.com/authorize',
+  authEndpoint:'https://accounts.spotify.com/authorize',
   redirectUrl:'http://localhost:4200/login/',
   scopes:[
     "user-read-currently-playing", //Musica tocando agora
